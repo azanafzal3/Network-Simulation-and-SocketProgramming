@@ -39,11 +39,15 @@ This repository contains all the lab work completed for the Computer Networks co
 1. Open terminal and navigate to the project directory.
 2. Start the server:
    ```bash
-   python server.py
+   gcc server.c -o server
+   ./server
+
+
    ```
 3. Start the client:
    ```bash
-   python client.py
+   gcc client.c -o client
+   ./client
    ```
 
 > Update IP addresses and ports in the script as needed.
